@@ -1,0 +1,47 @@
+.colorWhite{
+	background-color : white;
+}
+
+.testR{
+	height: 100px;
+	background-color: red;
+}
+
+.testG{
+	height: 100px;
+	background-color: green;
+}
+.testY{
+	height: 100px;
+	background-color: yellow;
+}
+
+.testB{
+	height: 100px;
+	background-color: blue;
+}
+
+.carousel-caption {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 120px;
+    color: #ffffff;
+    display: inline-block;
+    max-width: 80%;
+    padding-bottom: 7%;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+body{
+    margin: 0;
+    font-family: 'Lato',sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    color: #777777;
+    background-color: #ffffff
+}
+
+.carouselMain{
+	margin-bottom: -10px;
+}
