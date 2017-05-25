@@ -6654,8 +6654,14 @@ p.lead {
 .flex-center,
 .section.team-section .avatar,
 .testimonial-carousel .testimonial .avatar {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
     height: 100%
 }
@@ -7992,9 +7998,9 @@ i.btn-danger {
 }
 
 .full-bg-img,
+.img-overlay:after,
 .view .content,
 .view .mask {
-    overflow: hidden;
     top: 0;
     left: 0;
     height: 100%;
@@ -8182,7 +8188,8 @@ i.btn-danger {
 }
 
 .full-bg-img {
-    position: absolute
+    position: absolute;
+    overflow: hidden
 }
 
 .overlay:hover .mask {
@@ -14216,7 +14223,7 @@ button.toast-close-button {
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-perspective: 300px;
-    perspective: 300px;
+    perspective: 250px;
     -webkit-perspective-origin-x: 100%;
     perspective-origin-x: 100%;
     padding: 0;

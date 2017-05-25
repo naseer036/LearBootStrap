@@ -45,3 +45,11 @@ body{
 .carouselMain{
 	margin-bottom: -10px;
 }
+
+#about .backGroundImage {
+    background: url("https://livedemo00.template-help.com/joomla_59094/images/parallax/parallax1.jpg")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
