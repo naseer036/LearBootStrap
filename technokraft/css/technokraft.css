@@ -2,6 +2,10 @@
 	background-color : white;
 }
 
+.text-white{
+	color: white;
+}
+
 .testR{
 	height: 100px;
 	background-color: red;
@@ -52,4 +56,9 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#map {
+	height: 400px;
+	width: 100%;
 }

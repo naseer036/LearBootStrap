@@ -340,21 +340,119 @@
 				</div>
 		</section>
 		
-		<section id="desc" class="text-center desc-section main-section">
+		<section id="desc" class=" desc-section main-section">
 			<div class="container">
-				<h2>WHAT</h2>
-				<h1>PEOPLE SAY</h1>
-			</div>
-		</section>
-		
-		<section id="contact" class="bg-warning contact-section main-section">
-			<div class="container">
+				<h2 class="text-center">WHAT</h2>
+				<h1 class="text-center">PEOPLE SAY</h1>
 				<div class="row">
-					<div class="col-lg-12">
-						<h1>Contact Section</h1>
+					<div class="col talk-bubble tri-right bg-faded btm-left-in">
+						<div class="talktext ">
+							<p>Everyone here is professional and they treat you like a person unlike many of the name brand shops. They are honest and will work with you.</p>
+						</div>
+					</div>
+					
+					<div class="col talk-bubble tri-right bg-faded btm-left-in">
+						<div class="talktext ">
+							<p>Everyone here is professional and they treat you like a person unlike many of the name brand shops. They are honest and will work with you.</p>
+						</div>
+					</div>
+					<div class="col talk-bubble tri-right bg-faded btm-left-in">
+						<div class="talktext ">
+							<p>Good, reliable service is offered here - with attention to detail and with clear communication about possible problems I should be aware of.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<h4>Naseeruddin</h4>
+					</div>
+					<div class="col">
+						<h4>Naseeruddin</h4>
+					</div>
+					<div class="col">
+						<h4>Naseeruddin</h4>
 					</div>
 				</div>
 			</div>
+		</section>
+		
+		<section id="contact" class="contact-section special-color text-white">
+			<div class="container-fluid">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="col-12">
+								TECHNOKRAFT
+							</div>
+							<div class="col-12">
+								<p>Our goal is to gain your trust and confidence so that when you leave the shop, you are certain that your vehicle has been properly repaired by highly trained and certified technicians.</p>
+							</div>
+						</div>
+						<div class="col">
+							<div class="col-12">
+								Services
+							</div>
+							<div class="col-12">
+								<ul>
+									<li>
+										<a>COMPUTER DIAGNOSTICS</a>
+									</li>
+									<li>
+										<a>COMPUTER DIAGNOSTICS</a>
+									</li>
+									<li>
+										<a>COMPUTER DIAGNOSTICS</a>
+									</li>
+									<li>
+										<a>COMPUTER DIAGNOSTICS</a>
+									</li>
+									<li>
+										<a>COMPUTER DIAGNOSTICS</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col">
+							<div class="col-12">
+								Address
+							</div>
+							<div class="col-12">
+								<div class="col-12">
+									<p>4578 Marmora Road, Glasgow D04 89GR</p>
+								</div>
+								<div class="col-12">
+									<p>
+										800-2345-6790     800-2345-6789
+									</p>
+								</div>
+								<div class="col-12">
+									Mon-Sun 0:00 am to 0:00 pm
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="map"></div>
+			<script>
+				function initMap() {
+					var location = [{lat: 12.892014, lng: 77.587284},{lat: 12.910503, lng: 77.513439}];
+					var map = new google.maps.Map(document.getElementById('map'), {
+						zoom: 14,
+						center: {lat:12.899267,lng:77.543429}
+					});
+
+					var marker = new google.maps.Marker({
+						position: location[0],
+						map: map
+					});
+					var marker = new google.maps.Marker({
+						position: location[1],
+						map: map
+					});
+				}
+			</script>
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMDX9XFzm9Jp6E_g994nbSakBVQCR0Lck&callback=initMap" type="text/javascript"></script>
 		</section>
 		
 		
