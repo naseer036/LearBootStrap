@@ -25,29 +25,24 @@
 	background-color: blue;
 }
 
-.carousel-caption {
-    font-size: 50px;
-    font-weight: 900;
-    line-height: 120px;
-    color: #ffffff;
-    display: inline-block;
-    max-width: 80%;
-    padding-bottom: 7%;
-    vertical-align: middle;
-    text-transform: uppercase;
-}
-
 body{
     margin: 0;
     font-family: 'Lato',sans-serif;
-    font-size: 20px;
-    line-height: 34px;
-    color: #777777;
+    color: #FFFFFF;
+	font-weight: 200;
     background-color: #ffffff
 }
 
+body.container-fluid{
+padding: 0px;	
+}
+
+.col.carousel-item{
+	padding: 0px;
+}
+
 .carouselMain{
-	margin-bottom: -10px;
+	margin-bottom: -5%;
 }
 
 #about .backGroundImage {
@@ -61,4 +56,279 @@ body{
 #map {
 	height: 400px;
 	width: 100%;
+}
+
+.title{
+	font-family:'Varela Round', sans-serif; 
+	font-size: 27px;
+	font-weight: 900;
+}
+
+.fontBold{
+	font-weight: bold !important;
+}
+
+.btn-flat{
+	box-shadow: none;
+}
+
+.btn-flat::hover{
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+}
+.carouselMain{
+    margin-top: 71px;
+}
+
+.btn.info-color{
+	padding: 0px;
+}
+
+.col-3.d-flex{
+	padding: 0px;
+}
+
+.test{
+	font-size: 20px !important;
+}
+
+.d-flex .text-fluid,#navbarNav1 a{
+	font-size: 100% !important;
+	font-weight: 900 !important;
+}
+
+#navbarNav1 a{
+	color: grey;
+}
+
+#navbarNav1 a:hover{
+	color: #0275d8!important;
+}
+
+.label {
+	font-size: 100%;
+	padding: 0px;
+}
+
+.navbar .container{
+	padding-top: 16px;
+}
+
+.navbar .container .navbar-toggler{
+	padding-top: 11px;
+}
+
+.heading{
+	padding-top: 7%;
+}
+
+.footer{
+	padding-bottom: 5%;
+}
+
+.buttonText{
+	font-weight: 900;
+}
+
+.serviceText{
+	font-weight: normal;
+}
+
+.darkBlue{
+	color: #2886e7;
+}
+.myText{
+	font-weight: bold;
+}
+
+.mention{
+	padding-top: 20px!important;
+	font-weight: 900;
+	padding-left: 12px;
+	padding-right: 0px;
+}
+
+.contactIcon{
+	padding-right: 5px;
+}
+
+.contactLabel{
+	font-size: 30px;	
+	font-weight: 900;
+}
+
+.padding5{
+	padding-left: 5%;
+}
+
+#contactUs{
+	margin-top: 150px;
+}
+
+#bookAService{
+	margin-top: 150px;
+}
+
+.headingSize3{
+	line-height: 40px;
+}
+
+@media only screen and (min-width:0) {
+	.buttonText {
+        font-size: 12px
+    }
+
+	.btn .col-9{
+		margin: auto;
+		padding-left: 14px;
+		padding-right: 14px;
+		padding-top: 15px;
+		padding-bottom: 10px;
+	} 
+
+	.corsalBig{
+		font-size: 21px;
+	}
+	
+	.corsalSmall{
+		font-size: 15px;
+	}
+	
+	.headingSize1{
+		font-size: 14px;
+	}
+	
+	.headingSize2{
+		font-size: 21px;
+	}
+	
+	.serviceText{
+		padding-right: 5px !important;
+		padding-left: 10px !important;
+		font-size: 8px
+	}
+
+	.talktext{
+		    line-height: 2;
+			text-align: inherit;
+	}
+
+	.noPadding{
+		padding-bottom: 20px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+}
+
+@media only screen and (min-width:425px) {
+
+/*	.carousel-caption{
+		bottom: 19px;
+	}*/
+	
+}
+@media only screen and (min-width:768px) {
+    .buttonText {
+        font-size: 26px
+    }
+
+/*	.carousel-caption{
+		bottom: 60px;
+	}*/
+
+	.serviceText{
+		font-size: 14px
+	}
+	
+	.btn .col-9{
+		margin: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 15px;
+		padding-bottom: 10px;
+	} 
+	h1.myText{
+		font-size: 37px;
+	}
+	h2.myText{
+		font-size: 30px;
+	}
+	
+}
+
+@media only screen and (min-width:1020px) {
+	.btn .col-9{
+		margin: auto;
+		padding-left: 35px;
+		padding-right: 35px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	} 
+
+/*	.carousel-caption{
+		bottom: 104px;
+	}*/
+	
+	h1.myText{
+		font-size: 50px;
+	}
+	h2.myText{
+		font-size: 43px;
+	}
+}
+
+@media only screen and (min-width:1200px) {
+    .buttonText {
+        font-size: 33px
+    }
+	.corsalBig{
+		font-size: 100px;
+	}
+	
+	.corsalSmall{
+		font-size: 75px;
+	}
+	
+	.headingSize1{
+		font-size: 47px;
+	}
+	
+	.headingSize2{
+		font-size: 59px;
+	}
+	.headingSize3{
+		font-size: 20px;
+	}
+	.serviceText{
+		font-size: 21px
+	}
+
+	.talktext{
+		    line-height: 2;
+			text-align: inherit;
+	}
+
+	.noPadding{
+		padding-bottom: 20px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+}
+
+@media only screen and (min-width:1440px) {
+	.btn .col-9{
+		margin: auto;
+		padding-left: 35px;
+		padding-right: 35px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	} 
+	h1.myText{
+		font-size: 60px;
+	}
+	h2.myText{
+		font-size: 43px;
+	}
 }

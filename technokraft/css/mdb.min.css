@@ -64,6 +64,10 @@ input[type=range] {
     -webkit-appearance: none
 }
 
+.text-grey{
+	color: grey;
+}
+
 .mdb-color.lighten-5 {
     background-color: #D0D6E2!important
 }
@@ -6987,7 +6991,6 @@ button:focus {
     border: 0;
     -webkit-transition: .2s ease-out;
     transition: .2s ease-out;
-    color: #fff!important;
     margin: 6px;
     white-space: normal!important;
     word-wrap: break-word
@@ -7016,15 +7019,10 @@ button:focus {
     font-size: .8rem
 }
 
-.btn:hover {
-    color: #fff
-}
-
 .btn.active,
 .btn:active,
 .btn:focus {
     outline: 0;
-    color: #fff
 }
 
 .btn .fa {
@@ -13151,12 +13149,6 @@ button.toast-close-button {
     touch-action: none;
     overflow: hidden!important;
     -ms-overflow-style: none
-}
-
-@supports (-ms-overflow-style:none) {
-    .ps-container {
-        overflow: auto!important
-    }
 }
 
 @media screen and (-ms-high-contrast:active),
@@ -19553,6 +19545,8 @@ legend {
 	position: relative;
     width: 200px;
     height: auto;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
 .tri-right.btm-left-in:after{
